@@ -1,0 +1,7 @@
+class Two extends One {
+    // Constructor of class Two
+    Two() {
+        super(10);  // Explicitly call the parameterized constructor of One
+        System.out.println("Constructor of Two");
+    }
+}
